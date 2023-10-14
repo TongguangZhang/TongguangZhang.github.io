@@ -26,9 +26,10 @@ export default function Nav() {
     const position_class = get_position_class()
 
     const render_nav_link = (to, img_src, name, nav_class) => {
+        const nav_item_class = position_class === nav_class ? "nav-item current" : "nav-item"
         return (
             <div>
-                <Link to={to} className={nav_class}>
+                <Link to={to} className={nav_item_class}>
                     <img className="icon" src={img_src} alt={name} />
                     <h1>{name}</h1>
                 </Link>
