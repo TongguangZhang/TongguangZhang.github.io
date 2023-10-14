@@ -50,10 +50,9 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.625rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .nav-about,
     .nav-projects,
     .nav-skills,
