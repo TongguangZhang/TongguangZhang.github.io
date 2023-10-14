@@ -1,8 +1,15 @@
-import React, { Component } from "react"
+import React from "react"
+import Avatar from "../avatar/Avatar"
+import AboutMenu from "./AboutMenu"
 
-export default class About extends Component {
-    render() {
-        return <div>About</div>
-    }
+const About = () => {
+    return (
+        <>
+            <Avatar current_page="about" />
+            <AboutMenu />
+        </>
+    )
 }
+
+export default About
 

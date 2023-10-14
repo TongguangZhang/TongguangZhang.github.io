@@ -1,8 +1,15 @@
-import React, { Component } from "react"
+import React from "react"
+import Avatar from "../avatar/Avatar"
+import SkillsMenu from "./SkillsMenu"
 
-export default class Skills extends Component {
-    render() {
-        return <div>Skills</div>
-    }
+const Skills = () => {
+    return (
+        <>
+            <Avatar current_page="skills" />
+            <SkillsMenu />
+        </>
+    )
 }
+
+export default Skills
 
