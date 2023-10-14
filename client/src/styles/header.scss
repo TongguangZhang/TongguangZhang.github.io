@@ -1,0 +1,61 @@
+:root {
+    --progress: 0;
+}
+
+#header {
+    width: 15rem;
+    height: 4rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 3rem;
+    left: 3rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+#lines {
+    display: flex;
+    align-items: center;
+}
+
+#lines_thick {
+    display: block;
+    background-color: white;
+    height: 0.2rem;
+    width: calc(var(--progress) * 10.5rem);
+}
+
+#lines_thin {
+    display: block;
+    background-color: lightgrey;
+    height: 0.1rem;
+    width: calc((1 - var(--progress)) * 10.5rem);
+}
+
+@media (max-width: 1100px) {
+    #header {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 8rem;
+        height: 2.5rem;
+        top: 2rem;
+    }
+    h1 {
+        font-size: 1.25rem;
+    }
+    h2,
+    h3 {
+        font-size: 0.75rem;
+    }
+}
+
