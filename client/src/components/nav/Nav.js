@@ -6,7 +6,7 @@ import projects_icon from "../../assets/projects.png"
 import skills_icon from "../../assets/skills.png"
 import contact_icon from "../../assets/contact.png"
 
-export default function Nav() {
+const Nav = () => {
     const location = useLocation()
     const get_position_class = () => {
         switch (location.pathname) {
@@ -46,4 +46,6 @@ export default function Nav() {
         </nav>
     )
 }
+
+export default Nav
 
