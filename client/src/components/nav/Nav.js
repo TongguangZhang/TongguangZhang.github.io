@@ -31,7 +31,7 @@ const Nav = () => {
             <div>
                 <Link to={to} className={nav_item_class}>
                     <img className="icon" src={img_src} alt={name} />
-                    <h1>{name}</h1>
+                    <h3>{name}</h3>
                 </Link>
             </div>
         )
