@@ -14,8 +14,8 @@
 .avatar.skills {
     height: 198vh;
     bottom: -110vh;
-    left: -20rem;
-    transform: translateX(0) scaleX(-1);
+    left: 40%;
+    transform: translateX(-50%) scaleX(-1);
 }
 
 .shadow-overlay-about {
@@ -27,7 +27,7 @@
     z-index: -1;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 700px) {
     .avatar.skills {
         z-index: -5;
         height: 95vh;
