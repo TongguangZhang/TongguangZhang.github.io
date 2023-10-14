@@ -6,16 +6,18 @@ import Projects from "./components/projects/Projects"
 import Skills from "./components/skills/Skills"
 import Contact from "./components/contact/Contact"
 import "./styles/app.scss"
+import Background from "./components/background/Background"
 
 const App = () => {
     return (
         <BrowserRouter>
             <Nav />
+            <Background />
             <Routes>
-                <Route path="/" element={About} />
-                <Route path="/projects" element={Skills} />
-                <Route path="/skills" element={Projects} />
-                <Route path="/contact" element={Contact} />
+                <Route path="/" element={<About />} />
+                <Route path="/projects" element={<Skills />} />
+                <Route path="/skills" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
             </Routes>
         </BrowserRouter>
     )

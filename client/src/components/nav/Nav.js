@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link, useLocation } from "react-router-dom"
-import "./nav.scss"
+import "../../styles/nav.scss"
 import about_icon from "../../assets/about.png"
 import projects_icon from "../../assets/projects.png"
 import skills_icon from "../../assets/skills.png"
