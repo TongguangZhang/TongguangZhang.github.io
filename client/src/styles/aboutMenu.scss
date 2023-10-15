@@ -22,7 +22,7 @@
 }
 
 .item.active .title {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .sub-container {
@@ -104,42 +104,24 @@
 
 @media (max-width: 1000px) {
     .menu {
-        width: 12rem;
-        top: 30%;
-        left: 35%;
-        transform: translateY(-50%);
-    }
-    .sub-container {
-        right: 1rem;
+        width: 19rem;
+        top: 25%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
     }
     .item {
-        height: 2rem;
+        height: 2.5rem;
     }
     .sub-container {
         width: 15rem;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translateX(-50%);
     }
-    .title,
-    .item.active .title {
-        font-size: 0.8rem;
-        padding-right: 2.5rem;
-    }
-    .active-subheading .p-container {
-        font-size: 0.8rem;
-    }
+
     .icon-title-container,
     .about-icon {
         display: none;
-    }
-    h1 {
-        font-size: 0.8rem;
-    }
-    h2,
-    h3,
-    p {
-        font-size: 0.8rem;
     }
 }
 

@@ -1,0 +1,100 @@
+.skill-menu {
+    width: 31.2rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    right: 15vw;
+    align-items: flex-end;
+}
+
+.skill-item {
+    height: 3.7rem;
+    width: 50%;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.skill-title {
+    font-size: 1rem;
+    padding-right: 4.5rem;
+}
+
+.skill-item.activeSkill .skill-title {
+    font-size: 1.5rem;
+}
+
+.activeSkill {
+    border-radius: var(--radius-left);
+    cursor: default;
+}
+
+.skill-item.activeSkill:nth-child(1) {
+    background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
+}
+.skill-item.activeSkill:nth-child(2) {
+    background: linear-gradient(270deg, #ffffff00, var(--blue) 70%);
+}
+
+.skill-icon {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 1.8rem;
+    left: 8rem;
+}
+
+.skill-sub-container-1 h3,
+.skill-sub-container-2 h3 {
+    position: relative;
+    margin: 0;
+}
+
+.skill-sub-container-1,
+.skill-sub-container-2 {
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+}
+
+.level-container {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.level-point {
+    width: 3rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+}
+
+.filled {
+    background: linear-gradient(180deg, #236473, #25afce, #7ce7ff);
+}
+.unfilled {
+    background: linear-gradient(180deg, #1c8298, #074654, #074654);
+}
+
+.skill-sub-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+@media (max-width: 1000px) {
+    .skill-icon {
+        display: none;
+    }
+    .skill-menu {
+        flex-direction: column;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
+        top: 25%;
+    }
+}
+
