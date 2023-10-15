@@ -43,6 +43,18 @@ h2 {
     width: calc((1 - var(--progress)) * 10.5rem);
 }
 
+.link-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.link-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 @media (max-width: 1000px) {
     #header {
         left: 50%;
