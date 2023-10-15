@@ -9,7 +9,7 @@ import "../../styles/skillsMenu.scss"
 const SkillsMenu = () => {
     const [active_menu_item, set_active_menu_item] = useState(1)
 
-    const menu_items = ["LANGUAGES", "FRAMEWORKS", "DEV TOOLS"]
+    const menu_items = ["LANGUAGES", "LIBRARIES", "DEV TOOLS"]
 
     const currentIcon =
         active_menu_item === 1

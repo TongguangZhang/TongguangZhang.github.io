@@ -4,14 +4,14 @@ import project3 from "../../assets/project3.png"
 
 const projects = {
     1: {
-        title: "WARG Autonomy Team",
+        title: "WARG",
         image: project1,
         description: (
             <>
+                <p>I'm also an automation and embedded software developer on WARG</p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Penatibus et magnis dis parturient
-                    montes nascetur ridiculus mus mauris.
+                    This picture is from a flight test - I helped implement the Airside system that
+                    took it, the software runs on a Nvidia Jetson, using CUDA to leverage its GPU
                 </p>
             </>
         ),
@@ -22,10 +22,10 @@ const projects = {
         image: project2,
         description: (
             <>
+                <p>I made this website to help me track my workouts and progress.</p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Penatibus et magnis dis parturient
-                    montes nascetur ridiculus mus mauris.
+                    It's built using the MERN stack, with a React frontend connected to the Node
+                    server with Express, data is stored on the web based MongoDB Atlas database
                 </p>
             </>
         ),
@@ -36,10 +36,10 @@ const projects = {
         image: project3,
         description: (
             <>
+                <p>I made this website when I first started learning Web Development</p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Penatibus et magnis dis parturient
-                    montes nascetur ridiculus mus mauris.
+                    It uses Express and Node to create the server, and HTML and CSS to make a simple
+                    user interface, it connects to MongoDB Atlas with Mongoose
                 </p>
             </>
         ),
@@ -48,3 +48,4 @@ const projects = {
 }
 
 export default projects
+

@@ -48,13 +48,15 @@
 }
 
 .skill-sub-container-1 h3,
-.skill-sub-container-2 h3 {
+.skill-sub-container-2 h3,
+.skill-sub-container-3 h3 {
     position: relative;
     margin: 0;
 }
 
 .skill-sub-container-1,
-.skill-sub-container-2 {
+.skill-sub-container-2,
+.skill-sub-container-3 {
     display: flex;
     justify-content: right;
     gap: 2rem;

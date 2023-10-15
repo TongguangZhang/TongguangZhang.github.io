@@ -4,13 +4,10 @@ const sub_data = {
             title: "About Me",
             content: (
                 <>
-                    <p>Candidate for Bachelor of Applied Science in Mechatronics Engineering</p>
-                    <p>September 2022 - April 2027</p>
+                    <p>I'm a Mechatronics Engineering student with a background in programming.</p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
+                        I'm particularly passionate about robotics and I'm aiming to specialise in
+                        Artificial Intelligence
                     </p>
                 </>
             ),
@@ -21,12 +18,8 @@ const sub_data = {
             title: "University of Waterloo",
             content: (
                 <>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                    </p>
+                    <p>Candidate for Bachelor of Applied Science in Mechatronics Engineering</p>
+                    <p>Sept 2022 - Apr 2027 (expected)</p>
                 </>
             ),
         },
@@ -36,12 +29,14 @@ const sub_data = {
             title: "Data Science and Artificial Intelligence Engineering",
             content: (
                 <>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                    </p>
+                    <p>National Research Council of Canada</p>
+                    <p>Jan 2023 - Apr 2023</p>
+                    <ul>
+                        <li>Led the development of a PyTorch model</li>
+                        <li>Analysed data with NumPy, Matplotlib, and Pandas </li>
+                        <li>Built and deployed ML pipelines with bash scripting</li>
+                        <li>Dockerized pipelines for scalability on a supercomputer</li>
+                    </ul>
                 </>
             ),
         },
@@ -50,12 +45,13 @@ const sub_data = {
             title: "Autonomy Project Manager",
             content: (
                 <>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                    </p>
+                    <p>Waterloo Aerial Robotics Group</p>
+                    <p>Mar 2023 - CURRENT</p>
+                    <ul>
+                        <li>Designed system architecture for competition</li>
+                        <li>Used ML model outputs to model the world with Python</li>
+                        <li>Ased Asana and GitHub to implement Agile methedologies</li>
+                    </ul>
                 </>
             ),
         },
