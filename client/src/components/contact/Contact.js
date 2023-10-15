@@ -1,8 +1,14 @@
-import React, { Component } from "react"
+import React from "react"
+import ContactMenu from "./ContactMenu"
+import "../../styles/contact.scss"
 
-export default class Contact extends Component {
-    render() {
-        return <div>Contact</div>
-    }
+const Contact = () => {
+    return (
+        <>
+            <ContactMenu />
+        </>
+    )
 }
+
+export default Contact
 
