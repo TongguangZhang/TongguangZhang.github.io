@@ -11,13 +11,11 @@ const AboutMenu = () => {
     const [active_subheading, set_active_subheading] = useState(1)
 
     const handle_menu_item_click = (menu_item) => {
-        console.log("menu clicked")
         set_active_menu_item(menu_item)
         set_active_subheading(1)
     }
 
     const handle_subheading_click = (subheading) => {
-        console.log("subheading clicked")
         set_active_subheading(subheading)
     }
 
@@ -46,8 +44,8 @@ const AboutMenu = () => {
                 ))}
             </div>
             <div className="sub-container">
-                <div className="icon-title-contianer">
-                    <img src={active_menu_icon} alt={active_menu_title} className="icon" />
+                <div className="icon-title-container">
+                    <img src={active_menu_icon} alt={active_menu_title} className="about-icon" />
                     <h3>{active_menu_title}</h3>
                 </div>
                 {subheadings.map((subheading, index) => (
